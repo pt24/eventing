@@ -1,0 +1,18 @@
+{
+	"name": "esports/eventing",
+	"description": "Domain events",
+	"homepage": "https://github.com/pt24/eventing",
+	"authors": [
+		{
+			"name": "eSports",
+			"homepage": "http://www.esports.cz"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"doctrine/common": "2.*"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
